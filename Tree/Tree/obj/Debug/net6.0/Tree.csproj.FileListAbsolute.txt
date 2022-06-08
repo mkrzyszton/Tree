@@ -1,0 +1,15 @@
+D:\Programowanie\csharp\console\Graph\Graph\bin\Debug\net6.0\Tree.exe
+D:\Programowanie\csharp\console\Graph\Graph\bin\Debug\net6.0\Tree.deps.json
+D:\Programowanie\csharp\console\Graph\Graph\bin\Debug\net6.0\Tree.runtimeconfig.json
+D:\Programowanie\csharp\console\Graph\Graph\bin\Debug\net6.0\Tree.dll
+D:\Programowanie\csharp\console\Graph\Graph\bin\Debug\net6.0\Tree.pdb
+D:\Programowanie\csharp\console\Graph\Graph\obj\Debug\net6.0\Tree.csproj.AssemblyReference.cache
+D:\Programowanie\csharp\console\Graph\Graph\obj\Debug\net6.0\Tree.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programowanie\csharp\console\Graph\Graph\obj\Debug\net6.0\Tree.AssemblyInfoInputs.cache
+D:\Programowanie\csharp\console\Graph\Graph\obj\Debug\net6.0\Tree.AssemblyInfo.cs
+D:\Programowanie\csharp\console\Graph\Graph\obj\Debug\net6.0\Tree.csproj.CoreCompileInputs.cache
+D:\Programowanie\csharp\console\Graph\Graph\obj\Debug\net6.0\Tree.dll
+D:\Programowanie\csharp\console\Graph\Graph\obj\Debug\net6.0\refint\Tree.dll
+D:\Programowanie\csharp\console\Graph\Graph\obj\Debug\net6.0\Tree.pdb
+D:\Programowanie\csharp\console\Graph\Graph\obj\Debug\net6.0\Tree.genruntimeconfig.cache
+D:\Programowanie\csharp\console\Graph\Graph\obj\Debug\net6.0\ref\Tree.dll

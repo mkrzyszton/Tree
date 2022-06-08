@@ -1,0 +1,15 @@
+D:\Programowanie\csharp\console\Graph\Graph\obj\Debug\net6.0\Graph.csproj.AssemblyReference.cache
+D:\Programowanie\csharp\console\Graph\Graph\obj\Debug\net6.0\Graph.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programowanie\csharp\console\Graph\Graph\obj\Debug\net6.0\Graph.AssemblyInfoInputs.cache
+D:\Programowanie\csharp\console\Graph\Graph\obj\Debug\net6.0\Graph.AssemblyInfo.cs
+D:\Programowanie\csharp\console\Graph\Graph\obj\Debug\net6.0\Graph.csproj.CoreCompileInputs.cache
+D:\Programowanie\csharp\console\Graph\Graph\bin\Debug\net6.0\Graph.exe
+D:\Programowanie\csharp\console\Graph\Graph\bin\Debug\net6.0\Graph.deps.json
+D:\Programowanie\csharp\console\Graph\Graph\bin\Debug\net6.0\Graph.runtimeconfig.json
+D:\Programowanie\csharp\console\Graph\Graph\bin\Debug\net6.0\Graph.dll
+D:\Programowanie\csharp\console\Graph\Graph\bin\Debug\net6.0\Graph.pdb
+D:\Programowanie\csharp\console\Graph\Graph\obj\Debug\net6.0\Graph.dll
+D:\Programowanie\csharp\console\Graph\Graph\obj\Debug\net6.0\refint\Graph.dll
+D:\Programowanie\csharp\console\Graph\Graph\obj\Debug\net6.0\Graph.pdb
+D:\Programowanie\csharp\console\Graph\Graph\obj\Debug\net6.0\Graph.genruntimeconfig.cache
+D:\Programowanie\csharp\console\Graph\Graph\obj\Debug\net6.0\ref\Graph.dll
