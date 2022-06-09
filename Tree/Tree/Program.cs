@@ -1,4 +1,4 @@
-﻿using System.Collections.Generic;
+using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -40,9 +40,9 @@ namespace Tree
             }
         }
 
-        public void countNodes()
+        public int countNodes()
         {
-            Console.WriteLine($"Node number: {Nodes.Count}");
+            return Nodes.Count;
         }
 
         public void insertEdge(Node lowerNode, Node upperNode)
@@ -61,32 +61,39 @@ namespace Tree
             }
         }
 
-        public void countEdges()
+        public int countEdges()
         {
-            Console.WriteLine($"Edge number: {Edges.Count}");
+            return Edges.Count;
         }
 
         public void Display()
         {
-            foreach (KeyValuePair<Node, Node> node in Nodes)
-            {
-                if (node.Value.Name == node.Key.Name)
-                {
-                    Console.WriteLine($"Node: {node.Key.Name}");
-                }
-                else
-                {
-                    Console.WriteLine($"Child: {node.Key.Name} Parent: {node.Value.Name}");
-                }
-            }
+            List<string?> nodeValues = new List<string?>();
 
-            Console.WriteLine();
-            Console.WriteLine("---------------------");
-            Console.WriteLine();
+            foreach (var node in Nodes)
+                nodeValues.Add(node.Value.Name);
 
-            foreach (KeyValuePair<Node, Node> edge in Edges)
+            foreach (var node in Nodes)
             {
-                Console.WriteLine($"Edge between: {edge.Key.Name} - {edge.Value.Name}");
+                if (nodeValues.Contains(node.Key.Name))
+                    Console.WriteLine(node.Key.Name);
+
+                foreach (var edge in Edges)
+                    if (edge.Value.Name == node.Key.Name)
+                        Console.Write("--- ");
+
+                Console.WriteLine();
+        
+                foreach (var edge in Edges)
+                    if (edge.Value.Name == node.Key.Name)
+                        Console.Write(" |  ");
+
+                Console.WriteLine();
+
+                foreach (var edge in Edges) 
+                    if (edge.Value.Name == node.Key.Name)
+                        if (edge.Key.Name != node.Key.Name)
+                            Console.Write($" {edge.Key.Name} ");
             }
         }
     }
@@ -103,6 +110,8 @@ namespace Tree
             Node n4 = new("n4");
             Node n5 = new("n5");
             Node n6 = new("n6");
+            Node n7 = new("n7");
+            Node n8 = new("n8");
 
             // (Child, Parent)
             node.addNode(n, null);
@@ -112,10 +121,12 @@ namespace Tree
             node.addNode(n6, n2);
             node.addNode(n3, null);
             node.addNode(n4, n3);
+            node.addNode(n7, n);
+            node.addNode(n8, n);
 
-            node.insertEdge(n, n3);
-            node.removeNode(n2);
-            node.removeEdge(n1);
+            // node.insertEdge(n, n3);
+            // node.removeNode(n2);
+            // node.removeEdge(n1);
 
             node.Display();
             node.countNodes();
